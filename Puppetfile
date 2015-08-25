@@ -81,6 +81,6 @@ mod 'ec2tags',
 mod 'razordemo',
   :git => 'git@github.com:puppetlabs/tse-module-razordemo.git',
   :ref => 'v2.1'
-mod 'nginxdemo',
+mod 'nginx_puppet_demo',
   :git => 'git@github.com:kaipak/nginx_puppet_demo.git',
   :branch => 'master'
