@@ -15,7 +15,6 @@
 forge "https://forgeapi.puppetlabs.com"
 
 # PL Modules
-
 mod 'puppetlabs/java', '1.4.1'
 mod 'puppetlabs/git', '0.4.0'
 mod 'dism',
@@ -37,6 +36,8 @@ mod 'puppetlabs/puppetserver_gem', '0.1.0'
 mod 'puppetlabs/aws', '1.1.1'
 mod 'puppet/windows_firewall', '1.0.0'
 mod 'puppetlabs/splunk', '3.2.0'
+mod 'jfryman/nginx', '0.2.7'
+mod 'maestrodev/wget', '1.7.0'
 # Community Modules
 
 mod 'stahnma/epel', '1.0.2'
