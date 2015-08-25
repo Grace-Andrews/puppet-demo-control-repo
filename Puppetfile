@@ -28,7 +28,7 @@ mod 'razordemo',
   :git => 'git@github.com:puppetlabs/tse-module-razordemo.git',
   :ref => 'v2.1'
 
-mod 'nginxdemo',
+mod 'nginx_puppet_demo',
   :git => 'git@github.com:kaipak/nginx_puppet_demo.git',
   :ref => 'a996d3ea31eb7c6f6b93354aac7a6c29593dcffe',
   :branch => 'development'
