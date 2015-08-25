@@ -22,6 +22,7 @@ mod 'puppetlabs/puppetserver_gem', '0.1.0'
 mod 'puppetlabs/concat', '1.2.4'
 mod 'jfryman/nginx', '0.2.7'
 mod 'maestrodev/wget', '1.7.0'
+mod 'jpadams/puppet_vim_env'
 
 # Community Modules
 mod 'stahnma/epel', '1.0.2'
@@ -34,3 +35,5 @@ mod 'razordemo',
 mod 'nginx_puppet_demo',
   :git => 'git@github.com:kaipak/nginx_puppet_demo.git',
   :branch => 'development'
+
+
