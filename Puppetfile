@@ -19,6 +19,7 @@ mod 'puppetlabs/ntp', '4.1.0'
 mod 'puppetlabs/firewall', '1.7.0'
 mod 'puppetlabs/mysql', '3.5.0'
 mod 'puppetlabs/puppetserver_gem', '0.1.0'
+mod 'puppetlabs/concat', '1.2.4'
 mod 'jfryman/nginx', '0.2.7'
 mod 'maestrodev/wget', '1.7.0'
 
