@@ -1,12 +1,12 @@
 {
 "puppet_enterprise::master::code_manager::sources": {
     "myorg": {
-      "remote": "git://git-server.site/myorg/main-modules",
+      "remote": "git@github.com:kaipak/puppet-demo-control-repo.git",
       "prefix": "production"
     },
     "mysource": {
-      "remote": "git://git-server.site/mysource/main-modules",
-      "prefix": "testing"
+      "remote": "git@github.com:kaipak/ns-control-repo.git",
+      "prefix": "test"
     }
 }
 }
