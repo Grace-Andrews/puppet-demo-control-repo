@@ -1,4 +1,6 @@
 ---
+puppet_enterprise::master::sources: >
+  [{ "myorg": { "remote": "git://git-server.site/myorg/main-modules", "basedir": "/etc/puppetlabs/puppet/environments", "prefix": true }, "mysource": { "remote": "git://git-server.site/mysource/main-modules", "basedir": "/etc/puppetlabs/puppet/environments", "prefix": "testing" } }]
 splunk::params::version:  "6.0"
 splunk::params::build:    "182037"
 splunk::params::src_root: "http://master.inf.puppetlabs.demo/demo_offline_splunk"
