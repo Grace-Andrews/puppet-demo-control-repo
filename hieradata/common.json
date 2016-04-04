@@ -1,7 +1,7 @@
 {
 "puppet_enterprise::master::code_manager::sources": {
     "myorg": {
-      "remote": "git@github.com:kaipak/puppet-demo-control-repo.git",
+      "remote": "git@github.com:kaipak/puppet-demo-control-repo.git"
     },
     "mysource": {
       "remote": "git@github.com:kaipak/ns-control-repo.git",
