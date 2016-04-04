@@ -2,12 +2,10 @@
 "puppet_enterprise::master::code_manager::sources": {
     "myorg": {
       "remote": "git://git-server.site/myorg/main-modules",
-      "basedir": "/etc/puppetlabs/puppet/environments",
-      "prefix": true
+      "prefix": "production"
     },
     "mysource": {
       "remote": "git://git-server.site/mysource/main-modules",
-      "basedir": "/etc/puppetlabs/puppet/environments",
       "prefix": "testing"
     }
 }
